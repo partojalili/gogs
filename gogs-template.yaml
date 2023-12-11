@@ -272,7 +272,7 @@ objects:
     - name: "${GOGS_VERSION}"
       from:
         kind: DockerImage
-        name: quay.io/pjalili/gogs:${GOGS_VERSION}
+        name: quay.io/siamaksade/gogs:${GOGS_VERSION}
       importPolicy: {}
       annotations:
         tags: gogs,go,golang
